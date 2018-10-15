@@ -1,0 +1,9 @@
+# conda install -y --file conda_requirements.txt
+pandas
+seaborn
+plotly
+autopep8
+geopandas
+beautifulsoup4
+xlrd
+lxml
