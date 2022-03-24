@@ -2,3 +2,4 @@
 .DS_store
 .idea/**
 reveal.js/**
+cache/
