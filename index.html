@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Bolster - Presentations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .intro {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #ecf0f1;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+
+        .presentations {
+            list-style: none;
+        }
+
+        .presentation {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+        }
+
+        .presentation:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transform: translateX(5px);
+        }
+
+        .presentation-title {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .presentation-meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .presentation-links {
+            margin-top: 12px;
+        }
+
+        .presentation-links a {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 6px 12px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            transition: background 0.2s;
+        }
+
+        .presentation-links a:hover {
+            background: #2980b9;
+        }
+
+        .presentation-links a.notebook {
+            background: #e74c3c;
+        }
+
+        .presentation-links a.notebook:hover {
+            background: #c0392b;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Presentations</h1>
+        <p class="subtitle">by Andrew Bolster</p>
+
+        <div class="intro">
+            <p>A collection of presentations, talks, and workshops on topics including Python, data science, bash scripting, and more. Most presentations are available as interactive Jupyter notebooks.</p>
+        </div>
+
+        <ul class="presentations">
+            <li class="presentation">
+                <div class="presentation-title">Geospatial Analytics with Python</div>
+                <div class="presentation-meta">PyBelfast • March 2022</div>
+                <div class="presentation-links">
+                    <a href="2022-03 PyBelfast/Presentation.slides.html" class="slides">View Slides</a>
+                    <a href="2022-03 PyBelfast/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Data Science with Python</div>
+                <div class="presentation-meta">PyBelfast • January 2019</div>
+                <div class="presentation-links">
+                    <a href="2019-01 PyBelfast/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Python Data Workshop</div>
+                <div class="presentation-meta">PyConIE • November 2018</div>
+                <div class="presentation-links">
+                    <a href="2018-11 PyconIE/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Dask: Parallel Computing with Python</div>
+                <div class="presentation-meta">UU Magee • October 2018</div>
+                <div class="presentation-links">
+                    <a href="2018-10 UU Magee/Presentation.slides.html" class="slides">View Slides</a>
+                    <a href="2018-10 UU Magee/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Distributed Computing with Dask</div>
+                <div class="presentation-meta">October 2018</div>
+                <div class="presentation-links">
+                    <a href="2018-10 Dask/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">NIDC Workshop</div>
+                <div class="presentation-meta">Northern Ireland Developer Conference • June 2018</div>
+                <div class="presentation-links">
+                    <a href="2018-6 NIDC/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Data Art Workshop</div>
+                <div class="presentation-meta">May 2018</div>
+                <div class="presentation-links">
+                    <a href="2018-5 Data Art/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Bash Scripting Workshop</div>
+                <div class="presentation-meta">April 2018</div>
+                <div class="presentation-links">
+                    <a href="2018-04 Bash/This Is The Presentation.slides.html" class="slides">View Slides</a>
+                    <a href="2018-04 Bash/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Data Art Workshop</div>
+                <div class="presentation-meta">April 2018</div>
+                <div class="presentation-links">
+                    <a href="2018-4 Data Art/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Data Art</div>
+                <div class="presentation-meta">November 2017</div>
+                <div class="presentation-links">
+                    <a href="2017-11 Data Art/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">UUJ Workshop</div>
+                <div class="presentation-meta">Ulster University Jordanstown • October 2017</div>
+                <div class="presentation-links">
+                    <a href="2017-10 UUJ/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">BLUG Presentation</div>
+                <div class="presentation-meta">Belfast Linux Users Group • August 2017</div>
+                <div class="presentation-links">
+                    <a href="2017-08 BLUG/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">Python Workshop</div>
+                <div class="presentation-meta">PyBelfast • April 2017</div>
+                <div class="presentation-links">
+                    <a href="2017-04 PyBelfast/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">CodeCoop Workshop</div>
+                <div class="presentation-meta">April 2017</div>
+                <div class="presentation-links">
+                    <a href="2017-04 CodeCoop/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+
+            <li class="presentation">
+                <div class="presentation-title">CFG Workshop</div>
+                <div class="presentation-meta">Code First: Girls • 2018</div>
+                <div class="presentation-links">
+                    <a href="CFG 2018/" class="notebook">Browse Files</a>
+                </div>
+            </li>
+        </ul>
+
+        <footer>
+            <p>More about Andrew Bolster at <a href="https://andrewbolster.info">andrewbolster.info</a></p>
+            <p>View this repository on <a href="https://github.com/andrewbolster/nb_presentations">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
